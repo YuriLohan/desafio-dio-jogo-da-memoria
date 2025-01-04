@@ -58,8 +58,8 @@ h2{
     perspective: 500px;
 }
 .item{
-    width: 20vw;
-    height: 20vw; 
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

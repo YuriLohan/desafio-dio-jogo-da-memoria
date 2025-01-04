@@ -15,7 +15,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    min-width: 97vh;
 }
 h2{
     font-size: 3em;
@@ -50,6 +49,7 @@ h2{
 }
 .game{
     width: 100%;
+    max-width: 430px;
     height: 430px;
     display: flex;
     flex-wrap: wrap;

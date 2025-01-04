@@ -48,9 +48,8 @@ h2{
     }
 }
 .game{
-    width: 100%;
-    max-width: 430px;
-    height: auto;
+    width: 430px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

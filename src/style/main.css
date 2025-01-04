@@ -11,11 +11,10 @@ body{
     flex-direction: column;
     gap: 30px;
     background-color: #DC602E;
-    padding: 40px 60px;
+    padding: 40px 5%;
     align-items: center;
     justify-content: center;
-    width: 80vw;
-    max-width: 500px;
+    min-height: 100vh;
 }
 h2{
     font-size: 3em;
@@ -50,8 +49,7 @@ h2{
 }
 @media (max-width: 768px) {
     .container {
-        padding: 20px 5%;
-        width: 90vw;
+        padding: 20px 10px
     }
 
     h2 {
@@ -59,11 +57,11 @@ h2{
     }
 
     .game {
-        width: 80vw;
-        max-width: none;
+        width: 90%;
     }
     .reset {
         font-size: 1.2em;
+        padding: 12px 18px;
     }
 }
 .game{
